@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             x:Class="PassObjectsFromShell.Views.ContactBook.ContactBookHomeViewPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="StartAndExpand"
+                     Margin="0,20,0,0">
+            <Label Text="Object to send:"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding SendContact.Name}"
+                   FontSize="Large"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding SendContact.LastName}"
+                   FontSize="Large"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding SendContact.Phone}"
+                   FontSize="Large"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Button Text="Pass object"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    FontSize="Large"
+                    Command="{Binding PassObjectCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassObjectsFromShell.Android", "PassObjectsFromShell\PassObjectsFromShell.Android\PassObjectsFromShell.Android.csproj", "{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassObjectsFromShell", "PassObjectsFromShell\PassObjectsFromShell\PassObjectsFromShell.csproj", "{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B942A2F8-6EC6-4A89-B0C9-A98357FB5403}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA79733F-FBF4-4DF5-9C1F-5FDF747AD74E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F40F230-C95E-4DB1-B38B-2D11F6F0102B}
+	EndGlobalSection
+EndGlobal
